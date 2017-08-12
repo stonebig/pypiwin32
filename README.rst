@@ -2,7 +2,9 @@ This is a workaround to transform a pypiwin32 wheel demand into a pywin32 wheel 
 ======================================================================================
 
 A wheel created with this, and placed in the same D:/toto directory as a "pywin32" wheel will make equivalent:: 
+
   $ pip install pypiwin32 --no-index --trusted-host=None  --find-links=D:/toto
+
   $ pip install pywin32   --no-index --trusted-host=None  --find-links=D:/toto
 
 
